@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DemoXamarin.MainPage">
+    
+    <StackLayout Orientation="Vertical">
+        <Frame BackgroundColor="Orange" Padding="24" CornerRadius="0">
+            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+        <Label x:Name="ClickCountLabel" Text="Hello World!!" FontSize="Title" FontAttributes="Italic" HorizontalTextAlignment="Center" />
+
+        <Button Text="Click Me!" Clicked="Button_Clicked"/>
+
+        <Button Text="Xappiness" Clicked="Xappiness_Clicked" />
+
+        <Slider x:Name="CoolSlider" Minimum="0" Maximum="360"/>
+
+    </StackLayout>
+
+</ContentPage>
